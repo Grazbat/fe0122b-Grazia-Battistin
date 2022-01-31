@@ -1,0 +1,113 @@
+/* IMPOSTAZIONI GENERALI */
+html{
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+hr{
+    display: none;
+}
+body{
+    background-image: url(../img/sfondo.png);
+    padding: 15px;
+}
+header{
+    text-align: center;
+    background-color: rgb(31, 87, 190);
+    color: white;
+    margin: auto;
+    box-shadow: -2px 2px 8px 2px rgb(95, 95, 95);
+    line-height: 25px;
+
+    font-size: 0.7rem;
+    font-weight: bold;
+ 
+}
+nav ul{
+    padding-bottom: 30px;
+}
+.logo{
+    margin-top: 35px;
+}
+header li{
+    list-style-type: none;
+    text-transform: uppercase;
+    
+
+}
+header li::before{
+    content: " ->";
+}
+header li::after{
+    content: " <-";
+}
+
+header p{
+    line-height: 70px;
+    text-transform: uppercase;
+    font-size: 1em;
+  
+}
+header a{
+    text-decoration-line: none;
+    color: white;
+    
+}
+
+main{
+    background-color: white;
+    box-shadow: -2px 2px 8px 2px rgb(95, 95, 95);
+    padding: 15px;
+    margin-top: 3rem;
+    line-height: 1.2rem;
+}
+article{
+    text-align: left;
+    
+}
+.stronz{
+    color: purple;
+    font-weight: bold;
+}
+article h1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 50px;
+
+}
+main article p, ul, ol, li{
+    font-size: 0.8rem;
+}
+main article p:nth-of-type(1){
+    color: gray;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main p{
+    font-size: 0.8rem;
+    padding-left: 10px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+ul{
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+ol{
+    padding-left: 25px;
+}
+/* HEADER */
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */

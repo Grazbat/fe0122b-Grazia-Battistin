@@ -1,0 +1,133 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+body{
+    font-family:'Open-Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #393d41;
+    line-height: 1.65;
+    font-weight: normal;
+
+}
+main section h1 p{
+    padding: 15px;
+    line-height: 2em;
+}
+main section button{
+    margin-bottom: 15px;
+}
+main article h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+main article div{
+    padding-top: 25px;
+}
+main article div:last-child{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+header{
+    background: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+h1{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    font-size: 2.3rem;
+    line-height: 1.1;
+}
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    font-weight: bold;
+}
+aside{
+    margin-top: 30px;
+}
+aside div{
+    padding-bottom: 25px;
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-right: 15px;
+    border: 1px solid #dee1e3;
+}
+aside div h2{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    background-color: #25a2c3;
+    color: white;
+    margin-top: 50px;
+}
+footer h3{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 2rem;
+}
+footer a{
+    color: white;
+    font-family: "Montserrat";
+}
+footer p{
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-size: 0.7rem;
+}
+
+/*tutte le classi*/
+.immagini{
+    width: 100%;
+}
+.odiolavita{
+    background-color: #e22d0e;
+    padding: 30px;
+    color: white;
+}
+.sottile{
+    font-weight: normal;
+}
+/*tutti gli id*/
+#button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f04c2f;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 25px 10px 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-style: none;
+    border-radius: 5%;
+}
+#banner{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    
+}
+#notebook{
+    text-align: center;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#primoh2{
+    margin-top: 30px;
+}
+#secondoh2{
+    font-size: 1.7rem;
+    color: white;
+    padding-bottom: 30px;
+}
+#citaz{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: normal;
+    margin-top: 25px;
+}
