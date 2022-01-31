@@ -64,6 +64,8 @@ section h2 {
     margin-bottom: 1em;
 }
 
+
+
 /* ELEMENTI NEL MAIN - ARTICLE */
 h1 {
     font-size: 2.6rem;
@@ -99,7 +101,13 @@ iframe {
     margin-bottom: 2em;
     border-radius: 20px;
 }
-
+article div p{
+    float: left;
+}
+div p img{
+    border: double;
+    padding: 3px;
+}
 /* TABELLE */
 table {
     margin-bottom: 2em;
@@ -177,4 +185,10 @@ footer {
 }
 footer a {
     color: fuchsia;
+}
+/* classi*/
+.clearifx::after{
+    content: "";
+    clear: both;
+    display: block;
 }
