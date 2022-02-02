@@ -147,19 +147,32 @@ section h2 {
 }
 .grid{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 60% auto;
     grid-template-rows: auto auto auto;
+    grid-template-areas: 
+        "article aside"
+        ". ."
+        ". section";
+    column-gap: 10px;
 
+   
 }
 .articlegrid{
-    grid-area: 1/2/3/2;
+    grid-area: article;
+    grid-row: 1/4;
 }
 
 .asidelaterale{
-    grid-area: 1/3/1/3;
+  grid-area: aside;
+  
 }
 .sectionlaterale{
-    grid-area: 2/3/2/3;
+    grid-area: section;
+    grid-row: 3/2;
+    position: sticky;
+    top: 300px;
+    margin-top: 10px;
+
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
