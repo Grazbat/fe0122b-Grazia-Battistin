@@ -15,7 +15,7 @@ body {
         } 
     }
 
-    @media screen and (min-width:500px) {
+    @media screen and (min-width:500px) and (max-width:800px) {
         html {
             font-size: 70%;
         }
@@ -52,6 +52,20 @@ body {
     @media screen and (min-width:800px) {
         .articoliorizzontali{
             flex-direction: column;
+                    background-color: white;
+                    border: none;    
+        }
+        main{
+            display: flex;
+        }
+        main :first-child{
+            flex-basis: 70%;
+        }
+
+        .romolo{
+            display: flex;
+            align-content: flex-start;
+
         }
         
     }
