@@ -19,6 +19,11 @@ div{
     padding: 3%;
     box-shadow: 0.5px 6px 7px 0.5px black;
 }
+div:hover{
+    transform: scale(1.3);
+    z-index: 1;
+    box-shadow: 1px 7px 10px 1px black;
+}
 h1{
     padding-top: 50px;
 }
@@ -26,6 +31,7 @@ h1{
     background-color: beige;
     background-image: linear-gradient(rgb(238, 238, 169) 80%, rgb(134, 134, 107));
     transform: rotate(-7deg);
+    
 }
 .post2{
     background-color: rgb(119, 198, 201);
@@ -41,25 +47,5 @@ h1{
 .post4{
     background-color: rgb(119, 198, 201);
     background-image: linear-gradient(rgb(119, 198, 201) 80%, rgb(67, 103, 104));
-    transform: rotate(10deg);
-}
-.post5{
-    background-color: beige;
-    background-image: linear-gradient(rgb(238, 238, 169) 80%, rgb(134, 134, 107));
-    transform: rotate(-7deg);
-}
-.post6{
-    background-color: cadetblue;
-    background-image: linear-gradient(rgb(60, 239, 245) 80%, rgb(8, 110, 112));
-    transform: rotate(-10deg);
-}
-.post7{
-    background-color: beige;
-    background-image: linear-gradient(rgb(238, 238, 169) 80%, rgb(134, 134, 107));
-    transform: rotate(-7deg);
-}
-.post8{
-    background-color: rgb(119, 198, 201);
-    background-image: linear-gradient(rgb(119, 198, 201) 80%, rgb(67, 103, 104));
-    transform: rotate(7deg);
+    transform: rotate(12deg);
 }
