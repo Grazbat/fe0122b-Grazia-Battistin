@@ -52,8 +52,46 @@ header img{
     position: relative;
     left: 2px;
 }
+header nav ul{
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: right 1s ease-out;
+    width: 50vw;
+    height: auto;
+    z-index: 1;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.first h1 p{
+    color:grey;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 0.5em;
+    position: relative;
+    top: -1vh;
+}
+
+.menu {
+    display: none;
+}
+
+.menu:checked~nav ul {
+    right: 0;
+}
+
+.icoMenu {
+    position: absolute;
+    top: 4vh;
+    right: 5vw;
+    z-index: 2;
+    color: red;
+}
+
 nav{
- 
     text-align: right;
 }
 a{
@@ -162,7 +200,15 @@ tr:nth-child(even){
 
 /* RESPONSIVE */
 @media screen and (max-width: 500px) {
-    
+    table{
+        vertical-align: left;
+    }
+    .contatti{
+        text-align: center;
+    }
+    input, textarea, button{
+        width: 270px;
+    }
 }
 @media screen and (min-width: 800px) {
     
