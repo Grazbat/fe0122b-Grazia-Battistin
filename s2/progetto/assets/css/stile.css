@@ -7,10 +7,17 @@ body{
     font-size: 1.5rem;
     line-height: 1.8;
     color: #000;
-    text-align: center;
+
+    padding: 40px;
 }
 hr{
     display: none;
+}
+.burger{
+    visibility: hidden;
+}
+.menu{
+    float: right;
 }
 h1{
     font-size: 4rem;
@@ -19,14 +26,43 @@ h1{
     padding-top: 30px;
     padding-left: 10px;
     padding-bottom: 20px;
+    text-shadow: 1px #000;
 }
 h2{
     font-size: 3.5rem;
     line-height: 1.1;
+    padding: 15px;
 }
-h3 h4 h5 h6{
+h3, h4{
     line-height: 1.2;
+    font-size: 2.2rem;
+    padding-bottom: 15px;
 }
+h5, h6{
+    line-height: 1.2;
+    font-size: 1.9rem;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+header img{
+    float: left;
+    padding: 3%;
+    position: relative;
+    left: 2px;
+}
+nav{
+ 
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+
 .banner p{
     padding-left: 10px;
     padding-bottom: 20px;
@@ -35,11 +71,33 @@ h3 h4 h5 h6{
     padding-left: 10px;
     padding-bottom: 10px;
 }
+div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+article>div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+.ultimasection{
+    background-color: #0c0633;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
 
-
+}
+main{
+    background-color: white;
+} 
+.foto{
+    width: 100%;
+}
 
 .banner{
-    height: 30vh;
+    height: 50vh;
     background-image: url(../images/banner.jpg);
     background-size: cover; 
     margin-top: 0px; 
@@ -58,10 +116,57 @@ h3 h4 h5 h6{
 #vabene{
     padding: 5px 30px;
 }
-.rosso{
+#testogrande{
+    font-size: 3.3rem;
+    line-height: 1.1;
+    padding: 15px;
+}
+.rosso, i{
     color: #e42424;
+}
+footer{
+       background-color: rgb(238, 238, 238); 
+       clear: both;
+}
+
+.flexare{display: flex;
+    flex-direction: column;}
+
+.flexare div{
+    align-items: center;
+    align-content: center;
+    text-align: left;
+    justify-content: center;
+    padding-top: 4vh;
+    margin-left: 20px;    
+
+}
+.flexare div:nth-child(2){
+    font-size: 4rem;
+}
+.form{
+    text-align: center;
+}
+caption{
+    text-align: center;
+    font-weight: bold;
+}
+tr th{
+    background-color: cadetblue;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: rgb(117, 188, 190);
 }
 
 
-
 /* RESPONSIVE */
+@media screen and (max-width: 500px) {
+    
+}
+@media screen and (min-width: 800px) {
+    
+}
+@media screen and (min-width: 800px) {
+    
+}

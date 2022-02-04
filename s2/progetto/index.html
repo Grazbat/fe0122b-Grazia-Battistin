@@ -15,18 +15,25 @@
 </head>
 
 <body>
+ 
   <heder>
-    <div>
+    <div class="a">
       <img src="assets/images/logo.png" alt="logoEpicode">
-      <nav>
-        <ul>
-          <li><a class="rosso" href="index.html" title="Home Page" target="_blank">Home</a></li>
-          <li><a class="rosso" href="chi-siamo.html" title="Chi Siamo" target="_blank">Chi Siamo</a></li>
-          <li><a class="rosso" href="contatti.html" title="Contatti" target="_blank">Contatti</a></li>
-        </ul>
-        <a class="bottone" href="contatti.html">registrati</a>
-      </nav>
-    </div>
+      
+     </div>  
+     <div class="b">
+       <input type="checkbox" class="burger" id="burger">
+      <label for="burger" class="menu"><i class="fas fa-ellipsis-h"></i></label>
+       <nav>
+          <ul>
+            <li><a class="rosso" href="index.html" title="Home Page" target="_blank">Home</a></li>
+            <li><a class="rosso" href="chi-siamo.html" title="Chi Siamo" target="_blank">Chi Siamo</a></li>
+            <li><a class="rosso" href="contatti.html" title="Contatti" target="_blank">Contatti</a></li>
+          </ul>
+          <a class="bottone" href="contatti.html">registrati</a>
+        </nav>
+   
+     </div>
 
   </heder>
   <hr>
@@ -39,9 +46,12 @@
     </section>
     <hr>
     <article>
-      <h2>Perchè diventare un Developer</h2>
-      <p>Non servono laurea e competenze specifiche, solo impegno.<br>Segui il corso online, dove vuoi tu.<br>Il lavoro
-        che andrai a fare è veramente figo</p>
+      <div>
+        <h2>Perchè diventare un Developer</h2>
+        <p>Non servono laurea e competenze specifiche, solo impegno.<br>Segui il corso online, dove vuoi tu.<br>Il
+          lavoro
+          che andrai a fare è veramente figo</p>
+      </div>
       <hr>
       <section>
         <div>
@@ -62,15 +72,15 @@
         </div>
       </section>
       <hr>
-      <section>
-        <h3>Ma chi è il Developer oggi?</h3>
+      <section class="ultimasection">
+        <h3 id="testogrande">Ma chi è il Developer oggi?</h3>
         <p>Se non lo sai te lo diciamo noi: il futuro è dei developer</p>
         <a class="bottone" href="contatti.html">Scrivici!</a>
       </section>
     </article>
 
     <aside>
-      <img src="assets/images/notebook.jpg" alt="notebook">
+      <img class="foto" src="assets/images/notebook.jpg" alt="notebook">
       <div>
         <i class="far fa-grin"></i>
         <h4>Chi sarai</h4>
@@ -89,20 +99,30 @@
     </aside>
 
   </main>
-  <footer>
-    <h5>Chi siamo</h5>
-    <p>Epicode nasce con l'obiettivo di rivoluzionare la formazione in ambito tech</p>
-    <h5>Ti piace ciò che vedi? Condividilo con i tuoi amici</h5>
-    <a class="rosso" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-    <a class="rosso" href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-    <a class="rosso" href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+  <footer class="flexare">
+    <div>
+      <h5>Chi siamo</h5>
+      <p>Epicode nasce con l'obiettivo di rivoluzionare la formazione in ambito tech</p>
+      <h5>Ti piace ciò che vedi?<br> Condividilo con i tuoi amici</h5>
+    </div>
+    <div>
+      <a class="rosso" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a class="rosso" href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a class="rosso" href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
 
-    <h6>Iscriviti alla nostra newsletter</h6>
+    </div>
+    <div>
+      <h6 class="form">Iscriviti alla nostra newsletter</h6>
 
-    <input type="text">
-    <a href="contatti.html" id="vabene" class="bottone" target="_blank">Va bene!</a>
+      <form action="post">
+        <fieldset class="form">
+          <input type="email" name="email" id="email" required><br>
+          <button class="bottone" id="vabene" type="submit"> <strong>Va bene!</strong> </button>
+        </fieldset>
 
-    <p>&copy; Epicode Web Developer School - Via Appia 1, 00100 Roma (RM) - Tel 06-12345678 </p>
+      </form>
+      <p class="form">&copy; 2021 Epicode Web Developer school - Via appia 1, 00100 Roma (RM) - Tel . 06-12345678</p>
+    </div>
 
   </footer>
 
