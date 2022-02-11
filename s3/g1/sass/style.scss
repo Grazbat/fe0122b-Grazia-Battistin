@@ -1,0 +1,16 @@
+@import 'variabili';
+
+@import 'bottone';
+
+$dimensioni: 100%;
+$allineamento-testo: text-align center;
+//* $colore-primario: #fdfdfd; ---- h1{color: $colore-primario;} ---- h1 (a capo)color:colore-primario; <-sintassi rientrata *//
+
+body{
+    width: $dimensioni;
+    text-align: $allineamento-testo;
+}
+header{
+    width: $dimensioni;
+}
+
