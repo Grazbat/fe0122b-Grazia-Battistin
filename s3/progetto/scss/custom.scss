@@ -1,0 +1,26 @@
+$margin-laterale: 30px;
+$padding: 25px;
+$icons-color: white;
+
+
+
+@import "function";
+
+$bg-color-dark: rgb(8, 18, 29);
+$bg-color-light: rgb(189, 204, 245);
+
+.icons-color{
+    color: $icons-color;
+}
+
+main{
+    background-color: $bg-color-dark;
+    color: $bg-color-light;
+    margin: $margin-laterale;
+    padding: $padding;
+}
+
+section{
+    background-color: $bg-color-light;
+    color: $bg-color-dark;
+}

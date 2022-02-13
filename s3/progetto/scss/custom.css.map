@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,IAAI,CAAA;EACA,gBAAgB,ECDJ,OAAc;EDE1B,KAAK,ECDQ,OAAkB;EDE/B,MAAM,ECPQ,IAAI;CDQrB;;AAED,AAAA,OAAO,CAAA;EACH,gBAAgB,ECNH,OAAkB;EDO/B,KAAK,ECRO,OAAc;CDS7B",
+    "sources": [
+        "custom.scss",
+        "_variabili.scss",
+        "_function.scss"
+    ],
+    "names": [],
+    "file": "custom.css"
+}
