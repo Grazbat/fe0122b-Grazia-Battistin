@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova di Java numero uno</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div>
+        <h1 id="prova1">test1</h1>
+    </div>
+
+
+    <script>
+        document.write('sto dimostrando come si comportano gli script quando cambio la loro disposizione rispetto allo script di collegamento');
+    </script>
+
+    <h2>Secondo titolo secondo me</h2>
+
+
+    <script src="js/myscript.js"></script>
+    <script>
+
+        document.getElementById('prova1').innerHTML = 'testo sostitutivo del titolo';
+        document.write('siamo tutti disperati');
+        window.alert('piccolo spazio pubblicità');
+    </script>
+    <script>
+        var mioNumero= 1234455667;
+        var miaEmail= 'testo email';
+        console.log('mioName + miaEmail')
+    </script>
+
+    <script>
+            console.log(29 * 743);
+        console.log('testo inquietantemente inutile');
+    </script>
+</body>
+
+</html>
