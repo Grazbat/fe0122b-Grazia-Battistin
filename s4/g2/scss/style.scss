@@ -1,0 +1,20 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+
+$colore-sfondo: #95f11c;
+$button-color: #f11c91;
+
+.form{
+    display: block;
+    margin: auto;
+    padding: 5px 8px;
+    width: 400px;
+    background-color: $colore-sfondo;
+}
+.btn{
+    background-color: $button-color;
+}
+

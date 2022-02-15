@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odio tutti</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+    <h1>Siamo tutti estremamente stressati</h1>
+
+    <p>Signore e signori, qui urge una perizia psichiatrica</p>
+
+    <div class="form">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Indirizzo Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Tranquillo, non giudicheremo la tua email creata nel 2009 per connetterti a msn</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Flaggami per accettare</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Avanti</button>
+          </form>
+
+    </div>   
+    <script>
+        var nome = "Gelsomino";
+        nome2 = "Ambrogio";
+        nome3 = "Serafino";
+        const cognome = "Gelsominide";
+        alert("ecco a voi:" + " " + nome + " " + cognome);
+        alert("vi presento il signor:" + " " + nome2 + " " + cognome);
+        alert("ultimo, ma non per importanza:" + " " + nome3 + " " + cognome);
+
+        var nomuncolo = "Anacleto";
+        {
+            let nome = nomuncolo;
+            alert("A grandissima richiesta ecco a voi:" + " " + nome + " " + cognome);
+        }
+        alert("Scherzavo, è sempre" + " " + nome + " " + cognome);
+
+        var numero1 = 32;
+        var numero2 = 45;
+        var numero3 = "78";
+
+        var somma1 = numero1 + numero2;
+        console.log(somma1);
+        var somma2 = numero2 + numero3;  //mera concatenazione
+        document.write(somma2);
+
+        var risultato1 = numero1 *= numero2;
+        console.log(risultato1);
+
+    </script>
+
+    <br>
+
+    <script>
+        var sottrazione1 = numero2 - numero1; //qui il numero1 è stato sovrascritto, quindi non calcolo 45-32
+        document.write("I delfini, che carini, non sanno fare le moltiplicazioni ma sanno fare le sottrazioni!" + " " + sottrazione1);
+    </script>
+
+    <br>
+    <script>
+        var somma3 = numero2 + Number(numero3);
+        document.write(somma3);
+    </script>
+
+    <br>
+
+
+    <script>
+        var pet = "cano";
+        console.log(pet);
+        var pet = "fagiano";
+        console.log(pet);
+        var pet = "barracudo";
+        console.log(pet);
+        document.write(pet);
+    </script>
+
+    <br>
+
+    <script>
+        var primobool = 2 == 3;
+        document.write("questo è un tentativo di booleano" + " " + "---->" + primobool);
+
+    </script>
+
+    <script>
+        var secondobool = 70 > 5;
+        document.write("ecco a voi il secondo tentativo di booleano" + " " + "---->" + secondobool);
+    </script>
+
+
+    <script src="js/style.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
