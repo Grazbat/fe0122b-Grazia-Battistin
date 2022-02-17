@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Questa pagina è un esercizio su JS">
+    <title>Calcolatrice in JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+<body>
+
+    <h1>Ecco la nostra calcolatrice!</h1>
+    <main>
+        <div id="content">
+
+            <div class="container content">
+                <div class="content" id="tastiera">
+                    <div class="screen"><input type="text" id="schermino" readonly="readonly" placeholder="0" class="display"></div>
+                    <div class="numeri" id="7" value="7" onclick="prandiDato(this)">7</div>
+                    <div class="numeri" id="8" value="8" onclick="prandiDato(this)">8</div>
+                    <div class="numeri" id="9" value="9" onclick="prandiDato(this)">9</div>
+                    <div class="numeri" id="/" value="/" onclick="prandiDato(this)">/</div>
+                </div>
+                <div class="content" id="tastiera">
+                    <div class="numeri" id="4" value="4" onclick="prandiDato(this)">4</div>
+                    <div class="numeri" id="5" value="5" onclick="prandiDato(this)">5</div>
+                    <div class="numeri" id="6" value="6" onclick="prandiDato(this)">6</div>
+                    <div class="numeri" id="*" value="*" onclick="prandiDato(this)">X</div>
+                </div>
+                <div class="content" id="tastiera">
+                    <div class="numeri" id="1" value="1" onclick="prandiDato(this)">1</div>
+                    <div class="numeri" id="2" value="2" onclick="prandiDato(this)">2</div>
+                    <div class="numeri" id="3" value="3" onclick="prandiDato(this)">3</div>
+                    <div class="numeri" id="-" value="-" onclick="prandiDato(this)">-</div>
+                </div>
+                <div class="content" id="tastiera">
+                    <div class="numeri" onclick="resetCalcolatrice()">C</div>
+                    <div class="numeri" id="0" value="0" onclick="prandiDato(this)">0</div>
+                    <div class="numeri" id="." value="." onclick="prandiDato(this)">.</div>
+                    <div class="numeri" id="+" value="+" onclick="prandiDato(this)">+</div>
+
+                </div>
+
+                <div id="orasbrocco">
+                    <div class="numeri uguale" onclick="totale()">=</div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
