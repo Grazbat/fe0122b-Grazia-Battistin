@@ -1,0 +1,17 @@
+#aiuto{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(221, 125, 14);
+    
+}
+#btn{
+    width: 3rem;
+    height: 2rem;
+    background-color: rgb(164, 233, 233);
+    border: 3px solid rgb(4, 82, 82);
+}
+
+nav{
+  
+    visibility: hidden;
+}
