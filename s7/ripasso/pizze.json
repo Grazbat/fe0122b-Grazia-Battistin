@@ -1,0 +1,32 @@
+[
+    {
+        "nome":"Margherita",
+        "tipo":"Napoletana",
+        "prezzo":5,
+        "disponibile":true
+    },
+    {
+        "nome":"Diavola",
+        "tipo":"Napoletana",
+        "prezzo":1,
+        "disponibile":true
+    },
+    {
+        "nome":"Fiocco",
+        "tipo":"Napoletana",
+        "prezzo":7,
+        "disponibile":true
+    },
+    {
+        "nome":"Margherita",
+        "tipo":"Romana",
+        "prezzo":4,
+        "disponibile":true
+    },
+    {
+        "nome":"Hawayana",
+        "tipo":"Romana",
+        "prezzo":100,
+        "disponibile":false
+    }
+]
