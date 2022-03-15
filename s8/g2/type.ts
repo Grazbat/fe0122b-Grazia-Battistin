@@ -33,26 +33,25 @@ console.log(figlio.oneDeposit(1800));
 console.log(figlio.oneWithDraw(300));
 
 class MotherAccount extends SonAccount{
-    addInterest: number;
+    interesse: number;
 
-    constructor(nome: string, cognome: string, balanceInit: number, addInterest: number){
+    constructor(nome: string, cognome: string, balanceInit: number, interesse: number){
         
         super (nome, cognome, balanceInit);
-        this.addInterest = addInterest
-    }
-    oneDeposit(versamento: number): number{  //versamento
-        
-        return this.balanceTot += versamento;
-       
+        this.interesse = interesse;
     };
+   
+   
 
-    oneWithDraw(prelievo: number): number{
+       calcolaInt(versamento: number){
+          return versamento * 10 / 100;
+       };
         
-        return this.balanceTot -= prelievo;
 
-    }
+       // NON HO CAPITO NULLA
     
-}
+    
+};
 let mother = new MotherAccount('Filomena', 'Spippitiella', 700, 10);
 console.log(mother);
 console.log(mother.oneDeposit(700));

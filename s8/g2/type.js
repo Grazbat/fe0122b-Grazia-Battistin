@@ -36,20 +36,19 @@ console.log(figlio.oneDeposit(1800));
 console.log(figlio.oneWithDraw(300));
 var MotherAccount = /** @class */ (function (_super) {
     __extends(MotherAccount, _super);
-    function MotherAccount(nome, cognome, balanceInit, addInterest) {
+    function MotherAccount(nome, cognome, balanceInit, interesse) {
         var _this = _super.call(this, nome, cognome, balanceInit) || this;
-        _this.addInterest = addInterest;
+        _this.interesse = interesse;
         return _this;
     }
-    MotherAccount.prototype.oneDeposit = function (versamento) {
-        return this.balanceTot += versamento;
+    ;
+    MotherAccount.prototype.calcolaInt = function (versamento) {
+        return versamento * 10 / 100;
     };
     ;
-    MotherAccount.prototype.oneWithDraw = function (prelievo) {
-        return this.balanceTot -= prelievo;
-    };
     return MotherAccount;
 }(SonAccount));
+;
 var mother = new MotherAccount('Filomena', 'Spippitiella', 700, 10);
 console.log(mother);
 console.log(mother.oneDeposit(700));
